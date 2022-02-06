@@ -90,8 +90,8 @@ df.index
 * You can modify the ```get_stock_data()``` function in the ```src/utils/dataminer.py``` file base on your need and according to your conditions, as long as the output of the function is a ```pandas.DataFrame``` with an index of ```Date``` and its columns ```Open, High, Low, Close, Adj Close, Volume```, the code will run correctly. 
 
 
-| Index  | Open | High |	Low |	Close |	Adj Close |	Volume|
-|---|---|---|---|---|---|---|
-|Date | | | | | | 
-|2021-02-05|36931.546|38225.906|36658.761|38144.308|38144.308|58598066|
-|...|...|...|...|...|...|...|
+| Index  | Open | High |	Low |	Close |	Volume|
+|---|---|---|---|---|---|
+|Date | | | | |
+|2021-02-05|36931.546|38225.906|36658.761|38144.308|58598066|
+|...|...|...|...|...|...|
