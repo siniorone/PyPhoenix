@@ -22,6 +22,7 @@ git clone https://github.com/siniorone/PyPhoenix.git
 2. To use PyPhoenix go to the main repo directory, run the following command in your terminal to add ```src``` to your ```PYTHONPATH```:
 
 ```bash
+cd PyPhoenix
 export PYTHONPATH=${PWD}
 ```
 3. The run the file ```run.py```:
