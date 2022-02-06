@@ -87,7 +87,7 @@ df.index
 #               '2022-02-04', '2022-02-05'],
 #              dtype='datetime64[ns]', name='Date', length=366, freq=None)
 ```
-* You can modify the ```get_stock_data()``` function in the ```src/utils/dataminer.py``` file base on your need and according to your conditions, as long as the output of the function is a ```pandas.DataFrame``` with an index of ```Date``` and its columns ```Open, High, Low, Close, Adj Close, Volume```, the code will run correctly. 
+* You can modify the ```get_stock_data()``` function in the ```src/utils/dataminer.py``` file base on your need and according to your conditions, as long as the output of the function is a ```pandas.DataFrame``` with an index of ```Date``` and its columns ```Open, High, Low, Close, Volume```, the code will run correctly. 
 
 
 | Index  | Open | High |	Low |	Close |	Volume|
