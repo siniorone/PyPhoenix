@@ -25,7 +25,7 @@ git clone https://github.com/siniorone/PyPhoenix.git
 cd PyPhoenix
 export PYTHONPATH=${PWD}
 ```
-3. The run the file ```run.py```:
+3. Then run ```run.py``` file:
 ```bash
 python src/run.py
 ```
